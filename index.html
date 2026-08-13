@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>নারায়ণগঞ্জ হোসিয়ারি, পাবনা | মানসম্মত পোশাক ও হোসিয়ারি পণ্য</title>
+<meta name="description" content="নারায়ণগঞ্জ হোসিয়ারি, পাবনা — নারী, পুরুষ ও শিশুদের মানসম্মত পোশাক ও হোসিয়ারি পণ্য সাশ্রয়ী মূল্যে। খুচরা ও পাইকারি বিক্রয়, ভালো মান, ন্যায্য দাম ও আন্তরিক গ্রাহকসেবা।">
+<meta name="keywords" content="Narayanganj Hosiery Pabna, পোশাক, হোসিয়ারি, পাঞ্জাবি, শাড়ি, থ্রি পিস, মোজা, পাবনা">
+<meta property="og:title" content="নারায়ণগঞ্জ হোসিয়ারি, পাবনা">
+<meta property="og:description" content="নারী, পুরুষ ও শিশুদের মানসম্মত পোশাক ও হোসিয়ারি — পাবনার বিশ্বস্ত দোকান।">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://yourusername.github.io/narayanganj-hosiery/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23B91C1C'/><text x='50' y='62' font-size='44' text-anchor='middle' fill='white' font-family='sans-serif'>ন</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left"><span>📍 Pabna College Rd, Pabna 6600</span><span>🕘 09:00–20:00 (শুক্রবার বন্ধ)</span></div>
+    <div class="topbar-right"><a href="tel:01711483621">📞 01711-483621</a><a href="https://www.facebook.com/md.belal.hossain.122481" target="_blank" rel="noopener">Facebook</a></div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">ন</span><span>নারায়ণগঞ্জ হোসিয়ারি<small>Narayanganj Hosiery, Pabna</small></span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="active">হোম</a>
+      <a href="shop.html">শপ</a>
+      <a href="shop.html?cat=men">পুরুষ</a>
+      <a href="shop.html?cat=women">নারী</a>
+      <a href="shop.html?cat=children">শিশু</a>
+      <a href="shop.html?cat=hosiery">হোসিয়ারি</a>
+      <a href="about.html">আমাদের সম্পর্কে</a>
+      <a href="contact.html">যোগাযোগ</a>
+    </nav>
+    <div class="header-actions">
+      <label class="search-box" aria-label="Search">
+        <input data-search-input type="search" placeholder="পণ্য খুঁজুন…">
+        <button aria-label="Search">⌕</button>
+      </label>
+      <button class="icon-btn" aria-label="Cart" onclick="openCartDrawer()">🛒<span class="cart-badge" data-cart-count style="display:none">0</span></button>
+      <button id="hamburger" class="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div id="mobileNav" class="mobile-nav" aria-hidden="true">
+  <div class="mobile-nav-backdrop" data-close-mobile></div>
+  <div class="mobile-nav-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center"><b>মেনু</b><button class="icon-btn" data-close-mobile>✕</button></div>
+    <label class="search-box mobile" style="margin-top:14px"><input data-search-input type="search" placeholder="পণ্য খুঁজুন…"><button>⌕</button></label>
+    <nav class="nav">
+      <a href="index.html">হোম</a><a href="shop.html">শপ</a><a href="shop.html?cat=men">পুরুষ</a><a href="shop.html?cat=women">নারী</a><a href="shop.html?cat=children">শিশু</a><a href="shop.html?cat=hosiery">হোসিয়ারি</a><a href="about.html">আমাদের সম্পর্কে</a><a href="contact.html">যোগাযোগ</a>
+    </nav>
+    <a href="tel:01711483621" class="btn btn-primary" style="width:100%;margin-top:10px">📞 01711-483621</a>
+  </div>
+</div>
+
+<main>
+  <!-- Hero slider -->
+  <div class="container hero-wrap">
+    <div class="hero" aria-roledescription="carousel">
+      <div id="heroTrack" class="hero-track"></div>
+      <button id="heroPrev" class="hero-arrow prev" aria-label="Previous">‹</button>
+      <button id="heroNext" class="hero-arrow next" aria-label="Next">›</button>
+      <div id="heroDots" class="hero-dots"></div>
+    </div>
+  </div>
+
+  <!-- Top categories -->
+  <section class="section" style="padding-top:22px">
+    <div class="container">
+      <div class="divider-row"><span class="line"></span><h2 class="section-title">Top Categories</h2><span class="line"></span></div>
+      <div id="topCats" class="top-cats"></div>
+    </div>
+  </section>
+
+  <!-- Big category cards -->
+  <section class="section" style="background:var(--bg-soft);padding-top:36px">
+    <div class="container">
+      <div class="divider-row"><span class="line short"></span><h2 class="section-title">ক্যাটাগরি</h2><span class="line short"></span></div>
+      <p class="muted" style="text-align:center;margin:-12px 0 20px;font-size:14px">নারী, পুরুষ ও শিশুদের মানসম্মত পোশাক ও হোসিয়ারি — এক ছাদের নিচে</p>
+      <div class="cat-grid">
+        <article class="cat-card"><div class="cat-card-media"><span class="ph">👔</span></div><div class="cat-card-body"><h3>পুরুষ</h3><p>পাঞ্জাবি, শার্ট, টি-শার্ট, প্যান্ট, লুঙ্গি ও হোসিয়ারি</p><a href="shop.html?cat=men" class="btn btn-primary" style="width:100%">পণ্য দেখুন</a></div></article>
+        <article class="cat-card"><div class="cat-card-media"><span class="ph">👗</span></div><div class="cat-card-body"><h3>নারী</h3><p>থ্রি-পিস, সালোয়ার কামিজ, শাড়ি, লেগিংস ও হোসিয়ারি</p><a href="shop.html?cat=women" class="btn btn-primary" style="width:100%">পণ্য দেখুন</a></div></article>
+        <article class="cat-card"><div class="cat-card-media"><span class="ph">👶</span></div><div class="cat-card-body"><h3>শিশু</h3><p>বেবি ড্রেস, কিডস শার্ট/প্যান্ট ও হোসিয়ারি</p><a href="shop.html?cat=children" class="btn btn-primary" style="width:100%">পণ্য দেখুন</a></div></article>
+        <article class="cat-card"><div class="cat-card-media"><span class="ph">🧦</span></div><div class="cat-card-body"><h3>হোসিয়ারি</h3><p>মোজা, গ্লাভস, ইনারওয়্যার ও অন্যান্য হোসিয়ারি</p><a href="shop.html?cat=hosiery" class="btn btn-primary" style="width:100%">পণ্য দেখুন</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured products -->
+  <section class="section">
+    <div class="container">
+      <div class="divider-row"><span class="line"></span><h2 class="section-title">Featured Products</h2><span class="line"></span></div>
+      <div id="homeProductGrid" class="product-grid"></div>
+      <div style="text-align:center;margin-top:20px"><a href="shop.html" class="btn btn-secondary">সব পণ্য দেখুন →</a></div>
+    </div>
+  </section>
+
+  <!-- Value props -->
+  <section class="section" style="background:var(--dark);color:#fff">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:center">
+        <div><div style="font-size:28px">✓</div><h3 style="margin:6px 0">ভালো মানের পণ্য</h3><p style="color:#CBD5E1;font-size:13px">মানসম্মত কাপড় ও হোসিয়ারি — টেকসই ও আরামদায়ক</p></div>
+        <div><div style="font-size:28px">৳</div><h3 style="margin:6px 0">ন্যায্য দাম</h3><p style="color:#CBD5E1;font-size:13px">খুচরা ও পাইকারি — প্রতি ডজন সাশ্রয়ী মূল্য</p></div>
+        <div><div style="font-size:28px">♥</div><h3 style="margin:6px 0">আন্তরিক গ্রাহকসেবা</h3><p style="color:#CBD5E1;font-size:13px">পাবনার স্থানীয় ক্রেতাদের জন্য বিশ্বস্ত সেবা</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why / About teaser -->
+  <section class="section">
+    <div class="container" style="display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center">
+      <div>
+        <div class="pill">Narayanganj Hosiery, Pabna</div>
+        <h2 style="font-size:26px;margin:10px 0">নারী, পুরুষ ও শিশুদের মানসম্মত পোশাক ও হোসিয়ারি পণ্য</h2>
+        <p class="muted" style="font-size:14px">ভালো মান • ন্যায্য দাম • আন্তরিক গ্রাহকসেবা — পাবনার স্থানীয় ক্রেতাদের জন্য সহজে পছন্দ করার মতো বিভিন্ন পোশাক ও হোসিয়ারি পণ্য একসাথে পাওয়ার সুবিধা রয়েছে। খুচরা ও পাইকারি বিক্রয় উপলব্ধ।</p>
+        <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap"><a href="shop.html" class="btn btn-primary">এখনই কেনাকাটা করুন</a><a href="about.html" class="btn btn-secondary">আমাদের সম্পর্কে</a></div>
+      </div>
+      <div style="background:var(--bg-soft);border:1px solid var(--border-light);border-radius:20px;padding:18px">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div class="feature"><h4>খুচরা ও পাইকারি</h4><p>প্রতি ডজন সাশ্রয়ী মূল্য</p></div>
+          <div class="feature"><h4>হোসিয়ারি</h4><p>মোজা, ইনারওয়্যার, গ্লাভস</p></div>
+          <div class="feature"><h4>সব বয়স</h4><p>নারী, পুরুষ ও শিশু</p></div>
+          <div class="feature"><h4>পাবনায়</h4><p>College Rd, Pabna 6600</p></div>
+        </div>
+        <a href="https://maps.app.goo.gl/VRsFene5daTmZyXH8" target="_blank" rel="noopener" class="btn btn-secondary" style="width:100%;margin-top:12px">Google Maps এ দেখুন</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>নারায়ণগঞ্জ হোসিয়ারি, পাবনা</h4><p>Narayanganj Hosiery, Pabna — নারী, পুরুষ ও শিশুদের মানসম্মত পোশাক ও হোসিয়ারি। ভালো মান, ন্যায্য দাম, আন্তরিক সেবা।</p><p style="margin-top:10px">THANK YOU FOR SHOPPING HERE — WE WILL CONTACT YOU SOON</p></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">হোম</a></li><li><a href="shop.html">শপ</a></li><li><a href="about.html">আমাদের সম্পর্কে</a></li><li><a href="contact.html">যোগাযোগ</a></li><li><a href="checkout.html">চেকআউট</a></li></ul></div>
+      <div><h4>Categories</h4><ul><li><a href="shop.html?cat=men">পুরুষ</a></li><li><a href="shop.html?cat=women">নারী</a></li><li><a href="shop.html?cat=children">শিশু</a></li><li><a href="shop.html?cat=hosiery">হোসিয়ারি</a></li></ul></div>
+      <div><h4>Contact</h4><p>📍 264Q+Q52, Pabna College Rd, Pabna 6600</p><p>📞 <a href="tel:01711483621">01711-483621</a></p><p>🕘 09:00–20:00 (শুক্রবার বন্ধ)</p><p><a href="https://www.facebook.com/md.belal.hossain.122481" target="_blank" rel="noopener">Facebook</a> • <a href="https://maps.app.goo.gl/VRsFene5daTmZyXH8" target="_blank" rel="noopener">Google Maps</a></p><p style="margin-top:8px">Owner: Md Belal Hosstain</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Narayanganj Hosiery, Pabna. All Rights Reserved.</span><span>Cash on Delivery • bKash • Nagad — 01711483621</span></div>
+  </div>
+</footer>
+
+<!-- Cart drawer -->
+<div id="cartDrawer" class="drawer" aria-hidden="true">
+  <div class="drawer-backdrop" data-close-drawer></div>
+  <div class="drawer-panel">
+    <div class="drawer-head"><h3>শপিং কার্ট</h3><button class="icon-btn" data-close-drawer>✕</button></div>
+    <div id="cartBody" class="drawer-body"></div>
+    <div id="cartFoot" class="drawer-foot"><div id="cartSummary"></div></div>
+  </div>
+</div>
+
+<!-- Quick view modal -->
+<div id="quickModal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-panel">
+    <button class="close-x" data-close-modal>✕</button>
+    <div id="quickBody" style="display:contents"></div>
+  </div>
+</div>
+
+<div id="toasts" class="toasts"></div>
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="js/config.js"></script>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
