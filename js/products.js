@@ -11,7 +11,7 @@ const PRODUCTS = [
     dozenPrice: 4800, price: 4800, oldPrice: 5600, discount: 14,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 50,
-    image: "assets/products/panjabi-1.jpg",
+    image: "https://i0.wp.com/peallifestyle.com/wp-content/uploads/2024/03/whtie-kcp-3.jpg?fit=2001%2C3000&ssl=1",
     description: "আরামদায়ক প্রিমিয়াম কটন পাঞ্জাবি — উৎসব ও দৈনন্দিন ব্যবহারের জন্য।",
     sizes: ["M","L","XL","XXL"], colors: ["সাদা","কালো","নেভি"], stock: 50, featured: true, badge: "Wholesale Available"
   },
@@ -21,7 +21,7 @@ const PRODUCTS = [
     dozenPrice: 4200, price: 4200, oldPrice: 5000, discount: 16,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 40,
-    image: "assets/products/shirt-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVi1hXWuz7i0_73nuhTvuNnhI_bSx-Ls5ve__HFPI1AQ&s=10",
     description: "অফিস ও অনুষ্ঠানের জন্য ক্লাসিক ফরমাল শার্ট।",
     sizes: ["M","L","XL"], colors: ["সাদা","আকাশী","ধূসর"], stock: 40, featured: true, badge: "Wholesale Available"
   },
@@ -31,7 +31,7 @@ const PRODUCTS = [
     dozenPrice: 3600, price: 3600, oldPrice: 4200, discount: 14,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 60,
-    image: "assets/products/tshirt-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAc-pONOL166QDoCoxmhRd8m6osb5GJFeNbqR_ifDkB9kB2-uvGlhR1Rw&s=10",
     description: "নরম কটন টি-শার্ট — দৈনন্দিন আরামের জন্য।",
     sizes: ["M","L","XL","XXL"], colors: ["কালো","সাদা","লাল","নেভি"], stock: 60, featured: true, badge: "Wholesale Available"
   },
@@ -41,7 +41,7 @@ const PRODUCTS = [
     dozenPrice: 4000, price: 4000, oldPrice: 4800, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 45,
-    image: "assets/products/polo-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzfVm8RQdqUwOjNc5fKVN1FSgyy7JqXM_RWV8iuDctcTGTwZXiDJfEfNq&s=10",
     description: "স্টাইলিশ পোলো শার্ট — ক্যাজুয়াল ও স্মার্ট লুক।",
     sizes: ["M","L","XL"], colors: ["নেভি","কালো","সবুজ"], stock: 45, featured: false, badge: "Wholesale Available"
   },
@@ -51,7 +51,7 @@ const PRODUCTS = [
     dozenPrice: 6000, price: 6000, oldPrice: 7200, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 30,
-    image: "assets/products/pant-1.jpg",
+    image: "https://www.siatex.com/wp-content/uploads/2023/06/Mens-Jeans-Pants-from-Bangladesh-Denim-Pants-Manufacturers.webp",
     description: "টেকসই ডেনিম জিন্স প্যান্ট।",
     sizes: ["30","32","34","36"], colors: ["নীল","কালো","ধূসর"], stock: 30, featured: true, badge: "Wholesale Available"
   },
@@ -61,7 +61,7 @@ const PRODUCTS = [
     dozenPrice: 3000, price: 3000, oldPrice: 3600, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 80,
-    image: "assets/products/lungi-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Q1IHLDAlBvgcGWpKDoa8szImqF5Z53UZzyeEmMsat_cQ1D_5GP-otjVN&s=10",
     description: "আরামদায়ক সুতি লুঙ্গি — ঘর ও বাইরের জন্য।",
     sizes: ["Free"], colors: ["চেক","নীল","সবুজ"], stock: 80, featured: false, badge: "Wholesale Available"
   },
@@ -71,7 +71,7 @@ const PRODUCTS = [
     dozenPrice: 1800, price: 1800, oldPrice: 2100, discount: 14,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 100,
-    image: "assets/products/underwear-m-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0V9uYoyIK06_R2zagx1ELuMX-pjkhxQ4J_9RhJ-sbbg&s=10",
     description: "নরম ও টেকসই পুরুষদের আন্ডারওয়্যার।",
     sizes: ["M","L","XL"], colors: ["সাদা","ধূসর","নেভি"], stock: 100, featured: false, badge: "Wholesale Available"
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
     dozenPrice: 7200, price: 7200, oldPrice: 8500, discount: 15,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 35,
-    image: "assets/products/threepc-1.jpg",
+    image: "https://images.meesho.com/images/products/324661270/lccte_512.webp?width=512",
     description: "মার্জিত কটন থ্রি-পিস — প্রতিদিনের জন্য।",
     sizes: ["M","L","XL"], colors: ["লাল","নীল","সবুজ","কালো"], stock: 35, featured: true, badge: "Wholesale Available"
   },
@@ -91,7 +91,7 @@ const PRODUCTS = [
     dozenPrice: 6500, price: 6500, oldPrice: 7500, discount: 13,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 30,
-    image: "assets/products/salwar-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQroiV7eCk6K0mx2473KsLEpXVwpyridF2qJrlnTkQbOA&s",
     description: "আরামদায়ক সালোয়ার কামিজ সেট।",
     sizes: ["M","L","XL"], colors: ["গোলাপি","বেগুনি","আকাশী"], stock: 30, featured: false, badge: "Wholesale Available"
   },
@@ -101,7 +101,7 @@ const PRODUCTS = [
     dozenPrice: 9600, price: 9600, oldPrice: 11500, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 20,
-    image: "assets/products/saree-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPuALbDP8AKT6Z1fhdHQHro0uSVOY3SY3qxCsgwLnBgg&s=10",
     description: "ঐতিহ্যবাহী তাঁতের শাড়ি — উৎসবের জন্য।",
     sizes: ["Free"], colors: ["লাল","সবুজ","হলুদ"], stock: 20, featured: true, badge: "Wholesale Available"
   },
@@ -111,7 +111,7 @@ const PRODUCTS = [
     dozenPrice: 3200, price: 3200, oldPrice: 3800, discount: 16,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 50,
-    image: "assets/products/wtshirt-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1gZMc815rGEtvAInqf-95m5LX_xcj9n3cUqHb8wHsh8VKBEZ_K7ftFp0&s=10",
     description: "ক্যাজুয়াল মহিলাদের টি-শার্ট।",
     sizes: ["S","M","L","XL"], colors: ["গোলাপি","সাদা","কালো"], stock: 50, featured: false, badge: "Wholesale Available"
   },
@@ -121,7 +121,7 @@ const PRODUCTS = [
     dozenPrice: 2400, price: 2400, oldPrice: 3000, discount: 20,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 70,
-    image: "assets/products/leggings-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuoQCgnpNo7kt8NXFqmmlqBmbNj8I4IwdOreuwHkTTi3S4PKWK-T2SAh8S&s=10",
     description: "স্ট্রেচেবল আরামদায়ক লেগিংস।",
     sizes: ["S","M","L","XL"], colors: ["কালো","নেভি","ধূসর"], stock: 70, featured: false, badge: "Wholesale Available"
   },
@@ -131,7 +131,7 @@ const PRODUCTS = [
     dozenPrice: 3800, price: 3800, oldPrice: 4500, discount: 16,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 40,
-    image: "assets/products/baby-1.jpg",
+    image: "https://i.chaldn.com/_mpimage/baby-dress-set-13-pcs-gift-box-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125317&q=best&v=1",
     description: "নরম কটন বেবি ড্রেস — নবজাতকের জন্য।",
     sizes: ["0-6M","6-12M","1-2Y"], colors: ["গোলাপি","নীল","হলুদ"], stock: 40, featured: true, badge: "Wholesale Available"
   },
@@ -141,7 +141,7 @@ const PRODUCTS = [
     dozenPrice: 2800, price: 2800, oldPrice: 3300, discount: 15,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 60,
-    image: "assets/products/kidstshirt-1.jpg",
+    image: "https://www.aazbd.com/wp-content/uploads/2026/02/Younger.jpg",
     description: "রঙিন কিডস টি-শার্ট — শিশুদের প্রিয়।",
     sizes: ["2Y","4Y","6Y","8Y"], colors: ["লাল","নীল","হলুদ","সবুজ"], stock: 60, featured: true, badge: "Wholesale Available"
   },
@@ -151,7 +151,7 @@ const PRODUCTS = [
     dozenPrice: 3200, price: 3200, oldPrice: 3800, discount: 16,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 45,
-    image: "assets/products/kidspant-1.jpg",
+    image: "https://img.drz.lazcdn.com/static/bd/p/70f55ea354c05f695c15448117330818.jpg_960x960q80.jpg_.webp",
     description: "টেকসই কিডস প্যান্ট।",
     sizes: ["2Y","4Y","6Y","8Y"], colors: ["নীল","কালো","ধূসর"], stock: 45, featured: false, badge: "Wholesale Available"
   },
@@ -161,7 +161,7 @@ const PRODUCTS = [
     dozenPrice: 3000, price: 3000, oldPrice: 3600, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 35,
-    image: "assets/products/kidsshirt-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCSzh179O9eh_Z2_cS1yeJR76QbFGbcPxh98aeU-U0CK2iSEhl_3RNGs&s=10",
     description: "স্টাইলিশ কিডস শার্ট।",
     sizes: ["2Y","4Y","6Y","8Y"], colors: ["সাদা","আকাশী","নেভি"], stock: 35, featured: false, badge: "Wholesale Available"
   },
@@ -171,7 +171,7 @@ const PRODUCTS = [
     dozenPrice: 1200, price: 1200, oldPrice: 1500, discount: 20,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 120,
-    image: "assets/products/socks-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRnCSONBGuGX2N1J-WZiERAwGEb9qphgbaODQyMGqG37xCfADPp5m3bFE&s=10",
     description: "নরম কটন মোজা — ১২ জোড়া প্যাক।",
     sizes: ["Free","M","L"], colors: ["কালো","সাদা","ধূসর"], stock: 120, featured: true, badge: "Wholesale Available"
   },
@@ -181,7 +181,7 @@ const PRODUCTS = [
     dozenPrice: 1400, price: 1400, oldPrice: 1700, discount: 18,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 80,
-    image: "assets/products/gloves-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUzcV-R1TjOSQhGFZA1z-wq30w4YAyZwk-8_xw9a43YA&s=10",
     description: "শীতের জন্য উষ্ণ হাত মোজা।",
     sizes: ["Free","M","L"], colors: ["কালো","ধূসর","নেভি"], stock: 80, featured: false, badge: "Wholesale Available"
   },
@@ -191,7 +191,7 @@ const PRODUCTS = [
     dozenPrice: 2000, price: 2000, oldPrice: 2400, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 90,
-    image: "assets/products/vest-1.jpg",
+    image: "https://static-01.daraz.com.bd/p/98a45a911922e43c92fd3718a7582e72.jpg",
     description: "সুতি গেঞ্জি — দৈনন্দিন ব্যবহারের জন্য।",
     sizes: ["M","L","XL"], colors: ["সাদা","ধূসর"], stock: 90, featured: false, badge: "Wholesale Available"
   },
@@ -201,7 +201,7 @@ const PRODUCTS = [
     dozenPrice: 2600, price: 2600, oldPrice: 3200, discount: 19,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 60,
-    image: "assets/products/innerwear-1.jpg",
+    image: "https://static-01.daraz.com.bd/p/3b97ce5f74ae8fa78a58f9358d14e818.jpg",
     description: "আরামদায়ক মহিলাদের ইনারওয়্যার।",
     sizes: ["S","M","L","XL"], colors: ["গোলাপি","সাদা","কালো"], stock: 60, featured: false, badge: "Wholesale Available"
   },
@@ -211,7 +211,7 @@ const PRODUCTS = [
     dozenPrice: 1800, price: 1800, oldPrice: 2200, discount: 18,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 70,
-    image: "assets/products/cap-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_GUcVXTpA-VVlTLMu4OUPTqWCDLKg8aX687sn0LB1OsTwvQOsjOHrmw&s=10",
     description: "ক্যাজুয়াল ক্যাপ — সব বয়সের জন্য।",
     sizes: ["Free"], colors: ["কালো","নেভি","লাল"], stock: 70, featured: false, badge: "Wholesale Available"
   },
@@ -221,7 +221,7 @@ const PRODUCTS = [
     dozenPrice: 3600, price: 3600, oldPrice: 4200, discount: 14,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 55,
-    image: "assets/products/lungi-2.jpg",
+    image: "https://img.drz.lazcdn.com/static/bd/p/a5a3500ab346fded0ee84918bfdd2f73.png_720x720q80.png",
     description: "প্রিমিয়াম চেক ডিজাইন লুঙ্গি।",
     sizes: ["Free"], colors: ["চেক-নীল","চেক-সবুজ"], stock: 55, featured: true, badge: "Wholesale Available"
   },
@@ -231,7 +231,7 @@ const PRODUCTS = [
     dozenPrice: 1000, price: 1000, oldPrice: 1300, discount: 23,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 100,
-    image: "assets/products/babysocks-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfwPgvUMsSOX-7hH1dpQNIRPClfHSTKKP6sRR6RWYnoI7L1xpfFxKoSLSh&s=10",
     description: "নরম বেবি মোজা — ১২ জোড়া।",
     sizes: ["0-12M"], colors: ["গোলাপি","নীল","সাদা"], stock: 100, featured: false, badge: "Wholesale Available"
   },
@@ -241,7 +241,7 @@ const PRODUCTS = [
     dozenPrice: 1500, price: 1500, oldPrice: 1800, discount: 17,
     unitType: "dozen", retailUnitLabel: "প্রতি ডজন",
     minimumOrderQuantity: 1, availableStock: 75,
-    image: "assets/products/whosiery-1.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxN6Q8xYFMANgK0Fd73vFZug20cdgGOtrTSkOvYQRYcQ&s=10",
     description: "মহিলাদের জন্য নরম হোসিয়ারি মোজা।",
     sizes: ["Free"], colors: ["কালো","ত্বক","সাদা"], stock: 75, featured: false, badge: "Wholesale Available"
   }

@@ -69,8 +69,7 @@ function initHero(){
       </div>
       <div class="hero-visual">
         <div class="hero-visual-inner">
-          <img class="hero-img" src="${s.image}" alt="${s.title}" loading="lazy" onerror="this.style.display='none'">
-          <div class="hero-placeholder"><div class="big">🛍️</div><p>Replace: ${s.image}</p></div>
+          <img class="hero-img" src="${s.image}" alt="${s.title}" loading="eager" onerror="this.style.display='none';this.closest('.hero-visual-inner').classList.add('hero-fallback')">
         </div>
       </div>
     </div>
@@ -103,7 +102,7 @@ function initTopCats(){
   const el = document.getElementById("topCats");
   if(!el) return;
   const cats = [
-    {label:"Panjabi",icon:"👘",cat:"men",sub:"panjabi"},
+    {label:"Panjabi",icon:"👳🏻‍♂️",cat:"men",sub:"panjabi"},
     {label:"Shirt",icon:"👔",cat:"men",sub:"shirt"},
     {label:"T-Shirt",icon:"👕",cat:"men",sub:"t-shirt"},
     {label:"Polo",icon:"👕",cat:"men",sub:"polo-shirt"},
@@ -257,7 +256,7 @@ function openQuickView(id){
   const body=document.getElementById("quickBody");
   if(!body||!modal) return;
   body.innerHTML = `
-    <div class="modal-media"><span style="font-size:72px">${iconFor(p)}</span><img src="${p.image}" alt="${p.name}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0" onload="this.style.opacity=1" onerror="this.style.display='none'"></div>
+    <div class="modal-media"><img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('img-error')"></div>
     <div class="modal-body">
       <div class="pill">${p.category} • ${p.subcategory}</div>
       <h2 style="margin:10px 0 6px;font-size:20px">${p.name}</h2>

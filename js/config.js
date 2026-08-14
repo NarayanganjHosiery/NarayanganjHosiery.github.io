@@ -47,7 +47,7 @@ const BD_LOCATIONS = {
 // Hero slides — replace image paths with real files in assets/images/hero/
 const HERO_SLIDES = [
   {
-    image: "assets/images/hero/slide-1.jpg",
+    image: "assets/images/hero/slide-1.png",
     eyebrow: "নতুন কালেকশন ২০২৬",
     title: "নতুন পোশাকের সংগ্রহ",
     desc: "নারী, পুরুষ ও শিশুদের জন্য মানসম্মত পোশাক ও হোসিয়ারি — এক ছাদের নিচে।",
@@ -57,7 +57,7 @@ const HERO_SLIDES = [
     secondaryLink: "#products"
   },
   {
-    image: "assets/images/hero/slide-2.jpg",
+    image: "assets/images/hero/slide-2.png",
     eyebrow: "খুচরা ও পাইকারি",
     title: "ভালো মান, ন্যায্য দাম",
     desc: "পাইকারি বিক্রয় উপলব্ধ — প্রতি ডজন সাশ্রয়ী মূল্যে।",
@@ -67,7 +67,7 @@ const HERO_SLIDES = [
     secondaryLink: "contact.html"
   },
   {
-    image: "assets/images/hero/slide-3.jpg",
+    image: "assets/images/hero/slide-3.png",
     eyebrow: "পাবনার বিশ্বস্ত দোকান",
     title: "পাবনার বিশ্বস্ত পোশাকের দোকান",
     desc: "Narayanganj Hosiery, Pabna — আন্তরিক সেবা, নির্ভরযোগ্য মান।",
