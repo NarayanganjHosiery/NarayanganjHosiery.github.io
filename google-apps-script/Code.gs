@@ -13,7 +13,7 @@ const BKASH_NUMBER = "01711483621";
 const NAGAD_NUMBER = "01711483621";
 const BUSINESS_NAME_BN = "নারায়ণগঞ্জ হোসিয়ারি, পাবনা";
 const BUSINESS_NAME_EN = "Narayanganj Hosiery, Pabna";
-const BUSINESS_ADDRESS = "Pabna Collage Rd, Pabna 6600";
+const BUSINESS_ADDRESS = "Pabna College Rd, Pabna 6600";
 const BUSINESS_PHONE = "01711-483621";
 const CURRENCY = "৳";
 

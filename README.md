@@ -53,7 +53,7 @@ Edit `js/config.js` — phone, Facebook, address, Maps URL.
 3. Use relative paths (already configured)
 
 ## Replace Product Images
-Put JPG/WEBP files in `assets/products/` and update `image` in `js/products.js`. Hero slides: `assets/images/hero/slide-1.jpg` etc. (configured in `js/config.js` → `HERO_SLIDES`).
+Put JPG/WEBP files in `assets/products/` and update `image` in `js/products.js`. Hero slides: `assets/images/hero/slide-1.png` / `slide-2.png` / `slide-3.png` (configured in `js/config.js` → `HERO_SLIDES`). Actual files on disk are `.png` — use the exact extension (GitHub Pages is case-sensitive).
 
 ## Change Delivery Charge
 `js/config.js` → `DELIVERY_CHARGE` and `FREE_DELIVERY_THRESHOLD`.

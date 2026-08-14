@@ -27,7 +27,7 @@ const CONFIG = {
   // Google Maps embed src
   MAPS_EMBED_SRC: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6311.760970521538!2d89.2353981!3d24.0068616!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9bc9e6b237df%3A0x84a379d0333e56b1!2z4Kao4Ka-4Kaw4Ka-4Kav4Ka84Kaj4KaX4Kae4KeN4KacIOCmueCni-CmuOCmv-Cmr-CmvOCmvuCmsOCmvywg4Kaq4Ka-4Kas4Kao4Ka-!5e1!3m2!1sen!2sbd!4v1786591432416!5m2!1sen!2sbd",
 
-  // SEO
+  // SEO — TODO: replace with your actual GitHub Pages URL (e.g. https://USERNAME.github.io/REPO/)
   SITE_URL: "https://yourusername.github.io/narayanganj-hosiery/",
   CURRENCY: "৳",
 };
